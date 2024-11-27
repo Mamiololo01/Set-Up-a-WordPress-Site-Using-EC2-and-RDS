@@ -1,7 +1,7 @@
 
 ## SET UP DETAILS
 
-Create RDS Database
+# Create RDS Database
 
 Using the AWS console, create an RDS database with the following configurations:
 
@@ -21,9 +21,8 @@ DB instance identifier: wordpress
 
 Run Progress Check
 
-Skip
 
-Install Apache and Dependencies
+# Install Apache and Dependencies
 
 Connect to your Cloud Server webserver-01 and perform the following tasks:
 
@@ -36,7 +35,7 @@ Move your /var/www/wordpress/000-default.conf file to /etc/apache2/sites-enab
 Restart apache2ctl
 
 
-Configure WordPress
+# Configure WordPress
 
 Configure wp-config.php to connect to the RDS database we created.
 
@@ -45,7 +44,7 @@ Edit your /var/www/wordpress/wp-config.php file and replace 'localhost' by y
 Save and close the file
 
 
-Modify Security Groups
+# Modify Security Groups
 
 Modify your non-default security group to allow the EC2 instance to connect to the MySQL/Aurora RDS database.
 
