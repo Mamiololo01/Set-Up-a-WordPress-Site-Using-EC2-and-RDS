@@ -1,3 +1,6 @@
+
+## SET UP DETAILS
+
 Create RDS Database
 
 Using the AWS console, create an RDS database with the following configurations:
@@ -31,7 +34,6 @@ Move the /wordpress folder into your /var/www directory
 Move your /var/www/wordpress/000-default.conf file to /etc/apache2/sites-enabled/
 
 Restart apache2ctl
-
 
 
 Configure WordPress
